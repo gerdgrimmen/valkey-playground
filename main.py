@@ -6,3 +6,9 @@ value = val.get("name")
 print(value)
 
 val.delete("name")
+
+val.hset("asd", "foo", "bar")
+
+val.hset("asd", items=["asd",123])
+values = val.hgetall("asd")
+print(values)
