@@ -12,3 +12,6 @@ val.hset("asd", "foo", "bar")
 val.hset("asd", items=["asd",123])
 values = val.hgetall("asd")
 print(values)
+
+values = val.hget("asd", "foo")
+print(values)
