@@ -9,3 +9,6 @@ podman run -d -p 6379:6379 -it docker.io/valkey/valkey:latest
 
 # full list from documentation
 # https://valkey-py.readthedocs.io/en/latest/commands.html
+
+# valkeys command documentation
+# https://valkey.io/commands/
